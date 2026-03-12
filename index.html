@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Etymology Visualizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Etymology</div>
+        <div class="nav-links">
+            <span class="nav-pill">Visualizer</span>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Trace the journey<br>of any word</h1>
+        <p class="subtitle">See how words traveled across civilizations, languages, and centuries — visualized on an interactive map.</p>
+        <div class="search">
+            <input type="text" id="word-input" placeholder="Enter any English word..." autofocus />
+            <button id="trace-btn">Trace etymology</button>
+        </div>
+        <div class="suggestions">
+            Try: <button class="chip" data-word="democracy">democracy</button>
+            <button class="chip" data-word="love">love</button>
+            <button class="chip" data-word="run">run</button>
+            <button class="chip" data-word="algorithm">algorithm</button>
+            <button class="chip" data-word="tea">tea</button>
+            <button class="chip" data-word="sugar">sugar</button>
+            <button class="chip" data-word="computer">computer</button>
+            <button class="chip" data-word="philosophy">philosophy</button>
+        </div>
+    </section>
+
+    <section class="results" id="results">
+        <div class="map-wrapper">
+            <div id="map"></div>
+        </div>
+
+        <div id="timeline"></div>
+
+        <div id="details"></div>
+    </section>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="sampleData.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

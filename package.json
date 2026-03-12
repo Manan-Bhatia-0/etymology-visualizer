@@ -1,0 +1,35 @@
+{
+  "name": "etymology-visualizer",
+  "version": "1.0.0",
+  "description": "A mobile-optimized web app that visualizes word etymology with interactive map animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080 -c-1",
+    "deploy": "./deploy.sh",
+    "build": "echo 'No build step required for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[username]/etymology-visualizer.git"
+  },
+  "keywords": [
+    "etymology",
+    "linguistics",
+    "visualization",
+    "leaflet",
+    "map",
+    "animation",
+    "mobile",
+    "github-pages"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/[username]/etymology-visualizer/issues"
+  },
+  "homepage": "https://[username].github.io/etymology-visualizer/",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
