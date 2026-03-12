@@ -464,7 +464,7 @@ class EtymologyVisualizer {
 
     async trace() {
         const input = document.getElementById('word-input');
-        const word = input.value.trim();
+        const word = input.value.trim().toLowerCase();
         if (!word) return;
 
         this.setLoading(true);
