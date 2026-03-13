@@ -132,5 +132,32 @@ const SAMPLE_DATA = {
             { place: "Paris, France",        coords: [48.86, 2.35],    year: 1200,  note: "Old French sucre" },
             { place: "London, England",      coords: [51.51, -0.13],   year: 1300,  note: "Sugar enters English vocabulary and kitchens" }
         ]
+    },
+
+    misha: {
+        word: "misha",
+        stages: [
+            { period: "Origin", year: "2002", form: "Misha", language: "English", description: "Originated in Fort Wayne, Indiana." },
+            { period: "Modern Era", year: "2023", form: "Misha", language: "English", description: "Moved to New York City and became a beloved best brother." }
+        ],
+        path: [
+            { place: "Fort Wayne, Indiana",    coords: [41.08, -85.14],  year: 2002,  note: "Origin of Misha" },
+            { place: "New York City, New York", coords: [40.71, -74.01],  year: 2023,  note: "Became beloved/best brother" }
+        ]
+    },
+
+    keemya: {
+        word: "keemya",
+        stages: [
+            { period: "Origin", year: "2001", form: "Keemya", language: "English", description: "Originated in San Carlos, California." },
+            { period: "New York Era", year: "2023", form: "Keemya", language: "English", description: "Moved to New York City." },
+            { period: "First Evolution", year: "2025", form: "Keema", language: "English", description: "Evolved into Keema in NYC." },
+            { period: "Second Evolution", year: "2025", form: "Keem Cheese", language: "English", description: "Further evolved into Keem Cheese later in 2025." }
+        ],
+        path: [
+            { place: "San Carlos, California",  coords: [37.51, -122.26], year: 2001,  note: "Origin of Keemya" },
+            { place: "New York City, New York",  coords: [40.71, -74.01], year: 2023,  note: "Keemya arrives in NYC" },
+            { place: "New York City, New York",  coords: [40.71, -74.01], year: 2025,  note: "Evolves into Keema, then Keem Cheese" }
+        ]
     }
 };
